@@ -1,7 +1,7 @@
 
 # Random hacks for Wolfram Mathematica
 
-- **ConwayLife**, **timetravel* - Experiments with making Conway game of life in universe with closed timelike curves.
+- **ConwayLife**, **timetravel** - Experiments with making Conway game of life in universe with closed timelike curves.
 - **checkers** - stupid AI for checkers. Extremely unreadable code ;-)
 - **gaps** - experiments with gams betwen primes
 - **rec...** - QUINEs
