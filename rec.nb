@@ -1,0 +1,85 @@
+(* Content-type: application/vnd.wolfram.mathematica *)
+
+(*** Wolfram Notebook File ***)
+(* http://www.wolfram.com/nb *)
+
+(* CreatedBy='Mathematica 8.0' *)
+
+(*CacheID: 234*)
+(* Internal cache information:
+NotebookFileLineBreakTest
+NotebookFileLineBreakTest
+NotebookDataPosition[       157,          7]
+NotebookDataLength[      3055,         76]
+NotebookOptionsPosition[      2820,         63]
+NotebookOutlinePosition[      3156,         78]
+CellTagsIndexPosition[      3113,         75]
+WindowFrame->Normal*)
+
+(* Beginning of Notebook Content *)
+Notebook[{
+Cell[BoxData[{
+ RowBox[{
+  RowBox[{"qb", "[", "]"}], ":=", 
+  RowBox[{
+   RowBox[{"FromCharacterCode", "[", 
+    RowBox[{"qa", "[", "]"}], "]"}], "<>", "\"\<\\nqa[]:=\>\"", "<>", 
+   RowBox[{"ToString", "[", 
+    RowBox[{"qa", "[", "]"}], "]"}], "<>", 
+   "\"\<\\ns=qb[];\\nPrint[Style[s,Green,Bold]]\>\""}]}], "\n", 
+ RowBox[{
+  RowBox[{"qa", "[", "]"}], ":=", 
+  RowBox[{"{", 
+   RowBox[{
+   "113", ",", "98", ",", "91", ",", "93", ",", "58", ",", "61", ",", "70", 
+    ",", "114", ",", "111", ",", "109", ",", "67", ",", "104", ",", "97", ",",
+     "114", ",", "97", ",", "99", ",", "116", ",", "101", ",", "114", ",", 
+    "67", ",", "111", ",", "100", ",", "101", ",", "91", ",", "113", ",", 
+    "97", ",", "91", ",", "93", ",", "93", ",", "60", ",", "62", ",", "34", 
+    ",", "92", ",", "110", ",", "113", ",", "97", ",", "91", ",", "93", ",", 
+    "58", ",", "61", ",", "34", ",", "60", ",", "62", ",", "84", ",", "111", 
+    ",", "83", ",", "116", ",", "114", ",", "105", ",", "110", ",", "103", 
+    ",", "91", ",", "113", ",", "97", ",", "91", ",", "93", ",", "93", ",", 
+    "60", ",", "62", ",", "34", ",", "92", ",", "110", ",", "115", ",", "61", 
+    ",", "113", ",", "98", ",", "91", ",", "93", ",", "59", ",", "92", ",", 
+    "110", ",", "80", ",", "114", ",", "105", ",", "110", ",", "116", ",", 
+    "91", ",", "83", ",", "116", ",", "121", ",", "108", ",", "101", ",", 
+    "91", ",", "115", ",", "44", ",", "71", ",", "114", ",", "101", ",", 
+    "101", ",", "110", ",", "44", ",", "66", ",", "111", ",", "108", ",", 
+    "100", ",", "93", ",", "93", ",", "34"}], 
+   "}"}]}], "\[IndentingNewLine]", 
+ RowBox[{
+  RowBox[{"s", "=", 
+   RowBox[{"qb", "[", "]"}]}], ";"}], "\n", 
+ RowBox[{"Print", "[", 
+  RowBox[{"Style", "[", 
+   RowBox[{"s", ",", "Green", ",", "Bold"}], "]"}], "]"}]}], "Input",
+ CellChangeTimes->{{3.5614782249232893`*^9, 3.5614782253436823`*^9}, 
+   3.561518803486392*^9, {3.561518867303611*^9, 3.5615188735122004`*^9}, 
+   3.561518926909958*^9, {3.5615190196067047`*^9, 3.561519060590385*^9}, 
+   3.561519115138865*^9, {3.561519213356429*^9, 3.561519216751636*^9}, {
+   3.5615192786628637`*^9, 3.5615193409105053`*^9}, {3.561519616439768*^9, 
+   3.5615196180470667`*^9}, 3.5615196838097343`*^9, 3.561572055112446*^9}]
+},
+WindowSize->{1366, 693},
+WindowMargins->{{1, Automatic}, {0, Automatic}},
+FrontEndVersion->"8.0 for Linux x86 (64-bit) (February 23, 2011)",
+StyleDefinitions->"Default.nb"
+]
+(* End of Notebook Content *)
+
+(* Internal cache information *)
+(*CellTagsOutline
+CellTagsIndex->{}
+*)
+(*CellTagsIndex
+CellTagsIndex->{}
+*)
+(*NotebookFileOutline
+Notebook[{
+Cell[557, 20, 2259, 41, 126, "Input"]
+}
+]
+*)
+
+(* End of internal cache information *)

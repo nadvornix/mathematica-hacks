@@ -1,0 +1,61 @@
+(* Content-type: application/vnd.wolfram.mathematica *)
+
+(*** Wolfram Notebook File ***)
+(* http://www.wolfram.com/nb *)
+
+(* CreatedBy='Mathematica 8.0' *)
+
+(*CacheID: 234*)
+(* Internal cache information:
+NotebookFileLineBreakTest
+NotebookFileLineBreakTest
+NotebookDataPosition[       157,          7]
+NotebookDataLength[      1471,         52]
+NotebookOptionsPosition[      1238,         39]
+NotebookOutlinePosition[      1574,         54]
+CellTagsIndexPosition[      1531,         51]
+WindowFrame->Normal*)
+
+(* Beginning of Notebook Content *)
+Notebook[{
+Cell[BoxData[
+ RowBox[{
+  RowBox[{
+   RowBox[{
+    RowBox[{
+     RowBox[{"StringDrop", "[", 
+      RowBox[{"#", ",", 
+       RowBox[{"-", "7"}]}], "]"}], "<>", 
+     RowBox[{"ToString", "@", 
+      RowBox[{"InputForm", "@", "#"}]}], "<>", 
+     RowBox[{"StringTake", "[", 
+      RowBox[{"#", ",", 
+       RowBox[{"-", "7"}]}], "]"}]}], "&"}], "@", 
+   "\"\<StringDrop[#,-7]<>ToString@InputForm@#<>StringTake[#,-7]&@//Print\>\"\
+"}], "//", "Print"}]], "Input",
+ CellChangeTimes->{{3.562072350727841*^9, 3.5620724631745863`*^9}, {
+  3.562072499195931*^9, 3.5620725625665417`*^9}, {3.562072602736216*^9, 
+  3.5620726989150333`*^9}, {3.5620727363216352`*^9, 3.562072765475028*^9}}]
+},
+WindowSize->{1366, 693},
+WindowMargins->{{0, Automatic}, {0, Automatic}},
+FrontEndVersion->"8.0 for Linux x86 (64-bit) (February 23, 2011)",
+StyleDefinitions->"Default.nb"
+]
+(* End of Notebook Content *)
+
+(* Internal cache information *)
+(*CellTagsOutline
+CellTagsIndex->{}
+*)
+(*CellTagsIndex
+CellTagsIndex->{}
+*)
+(*NotebookFileOutline
+Notebook[{
+Cell[557, 20, 677, 17, 50, "Input"]
+}
+]
+*)
+
+(* End of internal cache information *)

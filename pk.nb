@@ -1,0 +1,120 @@
+(* Content-type: application/vnd.wolfram.mathematica *)
+
+(*** Wolfram Notebook File ***)
+(* http://www.wolfram.com/nb *)
+
+(* CreatedBy='Mathematica 8.0' *)
+
+(*CacheID: 234*)
+(* Internal cache information:
+NotebookFileLineBreakTest
+NotebookFileLineBreakTest
+NotebookDataPosition[       157,          7]
+NotebookDataLength[      3766,        111]
+NotebookOptionsPosition[      3421,         95]
+NotebookOutlinePosition[      3757,        110]
+CellTagsIndexPosition[      3714,        107]
+WindowFrame->Normal*)
+
+(* Beginning of Notebook Content *)
+Notebook[{
+Cell[BoxData[{
+ RowBox[{
+  RowBox[{"$MinPrecision", "=", "100"}], ";"}], "\[IndentingNewLine]", 
+ RowBox[{
+  RowBox[{"q", "=", 
+   RowBox[{
+    RowBox[{
+     FractionBox["11", "6"], "\[Pi]", " ", 
+     SuperscriptBox[
+      RowBox[{"Cot", "[", 
+       FractionBox["6523795", "7728277"], "]"}], "2"]}], "-", 
+    RowBox[{
+     FractionBox[
+      RowBox[{"64", "+", 
+       RowBox[{"913", " ", "\[ExponentialE]"}], "-", 
+       RowBox[{"50", " ", 
+        SuperscriptBox["\[ExponentialE]", "2"]}]}], 
+      RowBox[{
+       RowBox[{"-", "1062"}], "+", 
+       RowBox[{"355", " ", "\[ExponentialE]"}], "+", 
+       RowBox[{"359", " ", 
+        SuperscriptBox["\[ExponentialE]", "2"]}]}]], " ", 
+     SuperscriptBox["10", 
+      RowBox[{"-", "17"}]]}], "-", 
+    RowBox[{
+     SqrtBox[
+      FractionBox[
+       SuperscriptBox[
+        RowBox[{"(", 
+         RadicalBox[
+          FractionBox["5144282", "372549"], "3"], ")"}], "2"], 
+       RowBox[{"5", " ", 
+        RadicalBox["5", "3"]}]]], 
+     SuperscriptBox["10", 
+      RowBox[{"-", "36"}]]}], "-", 
+    RowBox[{
+     FractionBox["44", "75"], " ", 
+     SuperscriptBox["10", 
+      RowBox[{"-", "52"}]]}]}]}], ";"}], "\[IndentingNewLine]", 
+ RowBox[{"a", "=", 
+  RowBox[{
+   RowBox[{"RealDigits", "[", 
+    RowBox[{
+     RowBox[{"q", " ", 
+      SuperscriptBox["10", "55"]}], ",", "10", ",", "185"}], "]"}], "[", 
+   RowBox[{"[", "1", "]"}], "]"}]}], "\[IndentingNewLine]"}], "Input",
+ CellChangeTimes->{{3.563383685953288*^9, 3.563383706792779*^9}, {
+   3.5633837384480963`*^9, 3.563383775722624*^9}, {3.5633838057868032`*^9, 
+   3.563383894291358*^9}, 3.563383968931404*^9, {3.563384028996986*^9, 
+   3.563384031378826*^9}, {3.5633846003410673`*^9, 3.563384612874145*^9}, {
+   3.563385442823148*^9, 3.563385442963099*^9}, {3.563386110819591*^9, 
+   3.5633861240087347`*^9}, {3.5633861666068296`*^9, 3.563386167610772*^9}, 
+   3.563392738540666*^9, {3.5633938165834084`*^9, 3.563393816783688*^9}, {
+   3.5636044248989887`*^9, 3.563604433326062*^9}, {3.5636046324411182`*^9, 
+   3.563604632570579*^9}}],
+
+Cell[BoxData[
+ RowBox[{"ArrayPlot", "[", 
+  RowBox[{"Partition", "[", 
+   RowBox[{"a", ",", "5"}], "]"}], "]"}]], "Input",
+ CellChangeTimes->{{3.563383895867929*^9, 3.5633838962823153`*^9}, 
+   3.563383953361154*^9, {3.5633839839444723`*^9, 3.563383984014811*^9}, {
+   3.5633841229549294`*^9, 3.563384162899436*^9}, 3.563385451772087*^9, {
+   3.563386145148114*^9, 3.563386161498313*^9}, {3.56339274025268*^9, 
+   3.563392740830743*^9}, 3.563393814244376*^9, {3.563604449715678*^9, 
+   3.56360444977944*^9}, 3.5636046353861647`*^9}],
+
+Cell[BoxData["\[IndentingNewLine]"], "Input",
+ CellChangeTimes->{3.5633852659005632`*^9}],
+
+Cell[BoxData[
+ RowBox[{"\[IndentingNewLine]", 
+  FractionBox["72675797328971", "101559956668415"]}]], "Input",
+ CellChangeTimes->{3.563392017789942*^9, 3.563393375475832*^9}]
+},
+WindowSize->{1366, 693},
+WindowMargins->{{1, Automatic}, {0, Automatic}},
+FrontEndVersion->"8.0 for Linux x86 (64-bit) (February 23, 2011)",
+StyleDefinitions->"Default.nb"
+]
+(* End of Notebook Content *)
+
+(* Internal cache information *)
+(*CellTagsOutline
+CellTagsIndex->{}
+*)
+(*CellTagsIndex
+CellTagsIndex->{}
+*)
+(*NotebookFileOutline
+Notebook[{
+Cell[557, 20, 2056, 54, 190, "Input"],
+Cell[2616, 76, 532, 9, 30, "Input"],
+Cell[3151, 87, 89, 1, 50, "Input"],
+Cell[3243, 90, 174, 3, 74, "Input"]
+}
+]
+*)
+
+(* End of internal cache information *)

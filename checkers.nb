@@ -1,0 +1,376 @@
+(* Content-type: application/vnd.wolfram.mathematica *)
+
+(*** Wolfram Notebook File ***)
+(* http://www.wolfram.com/nb *)
+
+(* CreatedBy='Mathematica 8.0' *)
+
+(*CacheID: 234*)
+(* Internal cache information:
+NotebookFileLineBreakTest
+NotebookFileLineBreakTest
+NotebookDataPosition[       157,          7]
+NotebookDataLength[     14941,        367]
+NotebookOptionsPosition[     14566,        350]
+NotebookOutlinePosition[     14923,        366]
+CellTagsIndexPosition[     14880,        363]
+WindowFrame->Normal*)
+
+(* Beginning of Notebook Content *)
+Notebook[{
+Cell[BoxData[
+ RowBox[{"\[IndentingNewLine]", 
+  RowBox[{"DynamicModule", "[", 
+   RowBox[{
+    RowBox[{"{", 
+     RowBox[{"pt", "=", 
+      RowBox[{"{", 
+       RowBox[{"0", ",", "0"}], "}"}]}], "}"}], ",", 
+    RowBox[{"ClickPane", "[", 
+     RowBox[{
+      RowBox[{"Dynamic", "[", 
+       RowBox[{"Graphics", "[", 
+        RowBox[{
+         RowBox[{"Sequence", "@", 
+          RowBox[{"Table", "[", 
+           RowBox[{
+            RowBox[{"Table", "[", 
+             RowBox[{
+              RowBox[{"{", 
+               RowBox[{
+                RowBox[{"Rectangle", "[", 
+                 RowBox[{"{", 
+                  RowBox[{"1.5`", ",", "0.5`"}], "}"}], "]"}], ",", 
+                RowBox[{"RGBColor", "[", 
+                 RowBox[{"1", ",", "0", ",", "0"}], "]"}], ",", 
+                RowBox[{"Rectangle", "[", 
+                 RowBox[{"{", 
+                  RowBox[{"0.5`", ",", "1.5`"}], "}"}], "]"}], ",", 
+                RowBox[{"RGBColor", "[", 
+                 RowBox[{"1", ",", "0", ",", "0"}], "]"}], ",", 
+                RowBox[{"Rectangle", "[", 
+                 RowBox[{"{", 
+                  RowBox[{"1.5`", ",", "2.5`"}], "}"}], "]"}], ",", 
+                RowBox[{"RGBColor", "[", 
+                 RowBox[{"1", ",", "0", ",", "0"}], "]"}], ",", 
+                RowBox[{"Rectangle", "[", 
+                 RowBox[{"{", 
+                  RowBox[{"0.5`", ",", "3.5`"}], "}"}], "]"}], ",", 
+                RowBox[{"RGBColor", "[", 
+                 RowBox[{"1", ",", "0", ",", "0"}], "]"}], ",", 
+                RowBox[{"Rectangle", "[", 
+                 RowBox[{"{", 
+                  RowBox[{"1.5`", ",", "4.5`"}], "}"}], "]"}], ",", 
+                RowBox[{"RGBColor", "[", 
+                 RowBox[{"1", ",", "0", ",", "0"}], "]"}], ",", 
+                RowBox[{"Rectangle", "[", 
+                 RowBox[{"{", 
+                  RowBox[{"0.5`", ",", "5.5`"}], "}"}], "]"}], ",", 
+                RowBox[{"RGBColor", "[", 
+                 RowBox[{"1", ",", "0", ",", "0"}], "]"}], ",", 
+                RowBox[{"Rectangle", "[", 
+                 RowBox[{"{", 
+                  RowBox[{"1.5`", ",", "6.5`"}], "}"}], "]"}], ",", 
+                RowBox[{"RGBColor", "[", 
+                 RowBox[{"1", ",", "0", ",", "0"}], "]"}], ",", 
+                RowBox[{"Rectangle", "[", 
+                 RowBox[{"{", 
+                  RowBox[{"0.5`", ",", "7.5`"}], "}"}], "]"}], ",", 
+                RowBox[{"RGBColor", "[", 
+                 RowBox[{"1", ",", "0", ",", "0"}], "]"}], ",", 
+                RowBox[{"Rectangle", "[", 
+                 RowBox[{"{", 
+                  RowBox[{"3.5`", ",", "0.5`"}], "}"}], "]"}], ",", 
+                RowBox[{"RGBColor", "[", 
+                 RowBox[{"1", ",", "0", ",", "0"}], "]"}], ",", 
+                RowBox[{"Rectangle", "[", 
+                 RowBox[{"{", 
+                  RowBox[{"2.5`", ",", "1.5`"}], "}"}], "]"}], ",", 
+                RowBox[{"RGBColor", "[", 
+                 RowBox[{"1", ",", "0", ",", "0"}], "]"}], ",", 
+                RowBox[{"Rectangle", "[", 
+                 RowBox[{"{", 
+                  RowBox[{"3.5`", ",", "2.5`"}], "}"}], "]"}], ",", 
+                RowBox[{"RGBColor", "[", 
+                 RowBox[{"1", ",", "0", ",", "0"}], "]"}], ",", 
+                RowBox[{"Rectangle", "[", 
+                 RowBox[{"{", 
+                  RowBox[{"2.5`", ",", "3.5`"}], "}"}], "]"}], ",", 
+                RowBox[{"RGBColor", "[", 
+                 RowBox[{"1", ",", "0", ",", "0"}], "]"}], ",", 
+                RowBox[{"Rectangle", "[", 
+                 RowBox[{"{", 
+                  RowBox[{"3.5`", ",", "4.5`"}], "}"}], "]"}], ",", 
+                RowBox[{"RGBColor", "[", 
+                 RowBox[{"1", ",", "0", ",", "0"}], "]"}], ",", 
+                RowBox[{"Rectangle", "[", 
+                 RowBox[{"{", 
+                  RowBox[{"2.5`", ",", "5.5`"}], "}"}], "]"}], ",", 
+                RowBox[{"RGBColor", "[", 
+                 RowBox[{"1", ",", "0", ",", "0"}], "]"}], ",", 
+                RowBox[{"Rectangle", "[", 
+                 RowBox[{"{", 
+                  RowBox[{"3.5`", ",", "6.5`"}], "}"}], "]"}], ",", 
+                RowBox[{"RGBColor", "[", 
+                 RowBox[{"1", ",", "0", ",", "0"}], "]"}], ",", 
+                RowBox[{"Rectangle", "[", 
+                 RowBox[{"{", 
+                  RowBox[{"2.5`", ",", "7.5`"}], "}"}], "]"}], ",", 
+                RowBox[{"RGBColor", "[", 
+                 RowBox[{"1", ",", "0", ",", "0"}], "]"}], ",", 
+                RowBox[{"Rectangle", "[", 
+                 RowBox[{"{", 
+                  RowBox[{"5.5`", ",", "0.5`"}], "}"}], "]"}], ",", 
+                RowBox[{"RGBColor", "[", 
+                 RowBox[{"1", ",", "0", ",", "0"}], "]"}], ",", 
+                RowBox[{"Rectangle", "[", 
+                 RowBox[{"{", 
+                  RowBox[{"4.5`", ",", "1.5`"}], "}"}], "]"}], ",", 
+                RowBox[{"RGBColor", "[", 
+                 RowBox[{"1", ",", "0", ",", "0"}], "]"}], ",", 
+                RowBox[{"Rectangle", "[", 
+                 RowBox[{"{", 
+                  RowBox[{"5.5`", ",", "2.5`"}], "}"}], "]"}], ",", 
+                RowBox[{"RGBColor", "[", 
+                 RowBox[{"1", ",", "0", ",", "0"}], "]"}], ",", 
+                RowBox[{"Rectangle", "[", 
+                 RowBox[{"{", 
+                  RowBox[{"4.5`", ",", "3.5`"}], "}"}], "]"}], ",", 
+                RowBox[{"RGBColor", "[", 
+                 RowBox[{"1", ",", "0", ",", "0"}], "]"}], ",", 
+                RowBox[{"Rectangle", "[", 
+                 RowBox[{"{", 
+                  RowBox[{"5.5`", ",", "4.5`"}], "}"}], "]"}], ",", 
+                RowBox[{"RGBColor", "[", 
+                 RowBox[{"1", ",", "0", ",", "0"}], "]"}], ",", 
+                RowBox[{"Rectangle", "[", 
+                 RowBox[{"{", 
+                  RowBox[{"4.5`", ",", "5.5`"}], "}"}], "]"}], ",", 
+                RowBox[{"RGBColor", "[", 
+                 RowBox[{"1", ",", "0", ",", "0"}], "]"}], ",", 
+                RowBox[{"Rectangle", "[", 
+                 RowBox[{"{", 
+                  RowBox[{"5.5`", ",", "6.5`"}], "}"}], "]"}], ",", 
+                RowBox[{"RGBColor", "[", 
+                 RowBox[{"1", ",", "0", ",", "0"}], "]"}], ",", 
+                RowBox[{"Rectangle", "[", 
+                 RowBox[{"{", 
+                  RowBox[{"4.5`", ",", "7.5`"}], "}"}], "]"}], ",", 
+                RowBox[{"RGBColor", "[", 
+                 RowBox[{"1", ",", "0", ",", "0"}], "]"}], ",", 
+                RowBox[{"Rectangle", "[", 
+                 RowBox[{"{", 
+                  RowBox[{"7.5`", ",", "0.5`"}], "}"}], "]"}], ",", 
+                RowBox[{"RGBColor", "[", 
+                 RowBox[{"1", ",", "0", ",", "0"}], "]"}], ",", 
+                RowBox[{"Rectangle", "[", 
+                 RowBox[{"{", 
+                  RowBox[{"6.5`", ",", "1.5`"}], "}"}], "]"}], ",", 
+                RowBox[{"RGBColor", "[", 
+                 RowBox[{"1", ",", "0", ",", "0"}], "]"}], ",", 
+                RowBox[{"Rectangle", "[", 
+                 RowBox[{"{", 
+                  RowBox[{"7.5`", ",", "2.5`"}], "}"}], "]"}], ",", 
+                RowBox[{"RGBColor", "[", 
+                 RowBox[{"1", ",", "0", ",", "0"}], "]"}], ",", 
+                RowBox[{"Rectangle", "[", 
+                 RowBox[{"{", 
+                  RowBox[{"6.5`", ",", "3.5`"}], "}"}], "]"}], ",", 
+                RowBox[{"RGBColor", "[", 
+                 RowBox[{"1", ",", "0", ",", "0"}], "]"}], ",", 
+                RowBox[{"Rectangle", "[", 
+                 RowBox[{"{", 
+                  RowBox[{"7.5`", ",", "4.5`"}], "}"}], "]"}], ",", 
+                RowBox[{"RGBColor", "[", 
+                 RowBox[{"1", ",", "0", ",", "0"}], "]"}], ",", 
+                RowBox[{"Rectangle", "[", 
+                 RowBox[{"{", 
+                  RowBox[{"6.5`", ",", "5.5`"}], "}"}], "]"}], ",", 
+                RowBox[{"RGBColor", "[", 
+                 RowBox[{"1", ",", "0", ",", "0"}], "]"}], ",", 
+                RowBox[{"Rectangle", "[", 
+                 RowBox[{"{", 
+                  RowBox[{"7.5`", ",", "6.5`"}], "}"}], "]"}], ",", 
+                RowBox[{"RGBColor", "[", 
+                 RowBox[{"1", ",", "0", ",", "0"}], "]"}], ",", 
+                RowBox[{"Rectangle", "[", 
+                 RowBox[{"{", 
+                  RowBox[{"6.5`", ",", "7.5`"}], "}"}], "]"}], ",", 
+                RowBox[{"RGBColor", "[", 
+                 RowBox[{"1", ",", "0", ",", "0"}], "]"}], ",", "Black", ",", 
+                
+                RowBox[{"Point", "[", "pt", "]"}]}], "}"}], ",", 
+              RowBox[{"{", 
+               RowBox[{"x", ",", "0", ",", "8"}], "}"}]}], "]"}], ",", 
+            RowBox[{"{", 
+             RowBox[{"y", ",", "0", ",", "8"}], "}"}]}], "]"}]}], ",", 
+         RowBox[{"ImageSize", "\[Rule]", "Tiny"}]}], "]"}], "]"}], ",", 
+      RowBox[{
+       RowBox[{"(", 
+        RowBox[{"pt", "=", "#"}], ")"}], "&"}]}], "]"}]}], "]"}]}]], "Input",
+ CellChangeTimes->{{3.559213379158402*^9, 3.5592133798557043`*^9}, 
+   3.559213427405367*^9, {3.559213460294484*^9, 3.5592134678943233`*^9}, {
+   3.559214391606114*^9, 3.559214489695269*^9}, 3.559215051901332*^9, 
+   3.5592150919050207`*^9}],
+
+Cell[BoxData["\[IndentingNewLine]"], "Input",
+ CellChangeTimes->{3.559213577250325*^9}],
+
+Cell[BoxData[{
+ RowBox[{
+  RowBox[{"ValidMove", "[", 
+   RowBox[{
+    RowBox[{
+     RowBox[{"a_", "5"}], "|", "13", "|", "21", "|", "4", "|", "12", "|", 
+     "20", "|", "28"}], ",", "b_"}], "]"}], ":=", 
+  RowBox[{"b", "\[Equal]", 
+   RowBox[{"a", "+", "4"}]}]}], "\[IndentingNewLine]", 
+ RowBox[{
+  RowBox[{"ValidMove", "[", 
+   RowBox[{"a_", ",", "b_"}], "]"}], ":=", 
+  RowBox[{
+   RowBox[{"(", 
+    RowBox[{
+     RowBox[{"b", "\[Equal]", 
+      RowBox[{"a", "+", "3"}]}], "||", 
+     RowBox[{"b", "\[Equal]", 
+      RowBox[{"a", "+", "4"}]}]}], ")"}], "/;", 
+   RowBox[{"(", 
+    RowBox[{
+     RowBox[{"a", "<", "29"}], "&&", 
+     RowBox[{"MemberQ", "[", 
+      RowBox[{
+       StyleBox[
+        RowBox[{"{", 
+         RowBox[{
+         "6", ",", "7", ",", "8", ",", "14", ",", "15", ",", "16", ",", "22", 
+          ",", "23", ",", "24"}], "}"}], "OperatorCharacter"], ",", "a"}], 
+      "]"}]}], ")"}]}]}], "\[IndentingNewLine]", 
+ RowBox[{
+  RowBox[{"ValidMove", "[", 
+   RowBox[{"a_", ",", "b_"}], "]"}], ":=", 
+  RowBox[{
+   RowBox[{"(", 
+    RowBox[{
+     RowBox[{"b", "\[Equal]", 
+      RowBox[{"a", "+", "4"}]}], "||", 
+     RowBox[{"b", "\[Equal]", 
+      RowBox[{"a", "+", "5"}]}]}], ")"}], "/;", 
+   RowBox[{"a", "<", "29"}]}]}], "\[IndentingNewLine]", 
+ RowBox[{
+  RowBox[{
+   RowBox[{"ValidMove", "[", 
+    RowBox[{"_", ",", "_"}], "]"}], ":=", "False"}], 
+  "\[IndentingNewLine]"}], "\[IndentingNewLine]", 
+ RowBox[{
+  RowBox[{
+   RowBox[{"PlaceDisk", "[", 
+    RowBox[{"n_", ",", "color_"}], "]"}], ":=", 
+   RowBox[{"Sequence", "[", 
+    RowBox[{"color", ",", 
+     RowBox[{"Disk", "[", "\[IndentingNewLine]", 
+      RowBox[{
+       RowBox[{"{", 
+        RowBox[{
+         RowBox[{
+          RowBox[{"2", " ", 
+           RowBox[{"Mod", "[", 
+            RowBox[{"n", ",", "4"}], "]"}]}], "+", 
+          RowBox[{"If", "[", 
+           RowBox[{
+            RowBox[{"EvenQ", "[", " ", 
+             RowBox[{"Quotient", "[", 
+              RowBox[{"n", ",", "4"}], "]"}], "]"}], ",", "1", ",", "2"}], 
+           "]"}]}], ",", " ", "\[IndentingNewLine]", 
+         RowBox[{"1", "+", 
+          RowBox[{"Quotient", "[", 
+           RowBox[{"n", ",", "4"}], "]"}]}]}], "}"}], ",", 
+       "\[IndentingNewLine]", "0.5"}], "\[IndentingNewLine]", "]"}]}], 
+    "\[IndentingNewLine]", "]"}]}], 
+  "\[IndentingNewLine]"}], "\[IndentingNewLine]", 
+ RowBox[{
+  RowBox[{"Zobraz", "[", 
+   RowBox[{"{", 
+    RowBox[{"a_", ",", "b_"}], "}"}], "]"}], ":=", 
+  RowBox[{"Graphics", "[", "\[IndentingNewLine]", 
+   RowBox[{
+    RowBox[{"{", 
+     RowBox[{"Black", ",", 
+      RowBox[{"Rectangle", "[", 
+       RowBox[{
+        RowBox[{"{", 
+         RowBox[{"0.5", ",", "0.5"}], "}"}], ",", 
+        RowBox[{"{", 
+         RowBox[{"8.5", ",", "8.5"}], "}"}]}], "]"}]}], "}"}], "\n", "  ", 
+    "~", "Join", "~", "\[IndentingNewLine]", 
+    RowBox[{"Flatten", "[", 
+     RowBox[{"Table", "[", 
+      RowBox[{
+       RowBox[{"{", 
+        RowBox[{"Red", ",", 
+         RowBox[{"Rectangle", "[", 
+          RowBox[{"{", 
+           RowBox[{
+            RowBox[{"x", "+", "1.5"}], ",", 
+            RowBox[{"y", "+", "0.5"}]}], "}"}], "]"}], ",", "Red", ",", 
+         RowBox[{"Rectangle", "[", 
+          RowBox[{"{", 
+           RowBox[{
+            RowBox[{"x", "+", "0.5"}], ",", 
+            RowBox[{"y", "+", "1.5"}]}], "}"}], "]"}]}], "}"}], ",", 
+       RowBox[{"{", 
+        RowBox[{"x", ",", "0", ",", "7", ",", "2"}], "}"}], ",", 
+       RowBox[{"{", 
+        RowBox[{"y", ",", "0", ",", "7", ",", "2"}], "}"}]}], "]"}], "]"}], 
+    "\[IndentingNewLine]", "~", "Join", "~", "\[IndentingNewLine]", 
+    RowBox[{"Map", "[", 
+     RowBox[{
+      RowBox[{
+       RowBox[{"PlaceDisk", "[", 
+        RowBox[{"#", ",", "Yellow"}], "]"}], "&"}], ",", "a"}], "]"}], 
+    "\[IndentingNewLine]", "~", "Join", "~", "\[IndentingNewLine]", 
+    RowBox[{"Map", "[", 
+     RowBox[{
+      RowBox[{
+       RowBox[{"PlaceDisk", "[", 
+        RowBox[{"#", ",", "Blue"}], "]"}], "&"}], ",", "b"}], "]"}]}], 
+   "\[IndentingNewLine]", "]"}]}]}], "Input",
+ CellChangeTimes->{{3.559215546529478*^9, 3.5592156356461067`*^9}, {
+  3.55921570212932*^9, 3.5592157203545103`*^9}, {3.559215784883368*^9, 
+  3.559215898424799*^9}, {3.559216683637884*^9, 3.5592170234475107`*^9}, {
+  3.559219952285625*^9, 3.559219952860759*^9}}],
+
+Cell[BoxData[
+ RowBox[{"\[IndentingNewLine]", "\[IndentingNewLine]", 
+  "\[IndentingNewLine]"}]], "Input",
+ CellChangeTimes->{{3.55921613581863*^9, 3.559216243253298*^9}, {
+   3.5592163091820927`*^9, 3.559216470161397*^9}, {3.5592165049401913`*^9, 
+   3.559216508849349*^9}, {3.559216575671726*^9, 3.559216677665102*^9}, 
+   3.559216715289062*^9}]
+},
+WindowSize->{1366, 693},
+WindowMargins->{{1, Automatic}, {0, Automatic}},
+ShowSelection->True,
+FrontEndVersion->"8.0 for Linux x86 (64-bit) (February 23, 2011)",
+StyleDefinitions->"Default.nb"
+]
+(* End of Notebook Content *)
+
+(* Internal cache information *)
+(*CellTagsOutline
+CellTagsIndex->{}
+*)
+(*CellTagsIndex
+CellTagsIndex->{}
+*)
+(*NotebookFileOutline
+Notebook[{
+Cell[557, 20, 9255, 193, 335, "Input"],
+Cell[9815, 215, 87, 1, 50, "Input"],
+Cell[9905, 218, 4307, 122, 411, "Input"],
+Cell[14215, 342, 347, 6, 88, "Input"]
+}
+]
+*)
+
+(* End of internal cache information *)
